@@ -46,7 +46,7 @@ class Lab9B
         
         while (high >= low)
         {
-            mid = (high - low) / 2;
+            mid = (high + low) / 2;
             Console.WriteLine("\nLow is "+low);
             Console.WriteLine("\nHigh is "+high);
             Console.WriteLine("\nMid is "+mid);
