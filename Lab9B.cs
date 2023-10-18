@@ -15,7 +15,7 @@ class Lab9B
     public static void Main(string[] args)
     {
         int[] list = new int[11];
-        Console.WriteLine("Please enter 10 numbers:");
+        Console.WriteLine("Please enter 11 numbers:");
         for (int i = 0; i < list.Length; i++)
         {
             Console.Write("Integer " + (i + 1) + ": ");
